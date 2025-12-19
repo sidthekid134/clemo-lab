@@ -1,0 +1,67 @@
+{
+  "run_id": "0ea19e17-4387-4b1f-a24f-52572bf2ec92",
+  "project_id": "cda17d0b-999b-4482-a16d-3f69002ddbbd",
+  "run_mode": "shadow",
+  "run_number": 2,
+  "status": "done",
+  "started_at": "2025-12-19T21:30:08.306427",
+  "ended_at": "2025-12-19T21:30:18.894357",
+  "duration_seconds": 10.58793,
+  "coordinator_branch": null,
+  "intent_branch": "intent/placeholder-intent-0ea19e17",
+  "pr_number": 11,
+  "pr_url": "https://github.com/sidthekid134/clemo-lab/pull/11",
+  "total_stories": 1,
+  "completed_stories": 1,
+  "failed_stories": 0,
+  "snapshot": {
+    "id": "e5aafaaa-f91d-4249-becc-f0b45e4daff5",
+    "name": "Placeholder Intent",
+    "description": "This is a placeholder intent. Edit it to describe what you want to build.",
+    "dependencies": [],
+    "stories": [
+      {
+        "id": "34e1127d-a057-48bf-af81-b74d56f1ffdc",
+        "title": "Placeholder Story",
+        "description": "This is a placeholder story. Edit it to define your requirements.",
+        "objective": "Placeholder Story",
+        "acceptance_criteria": [],
+        "implementation_notes": [],
+        "dependencies": [],
+        "workstream_id": "default",
+        "complexity_score": 0,
+        "estimated_tokens": 0,
+        "status": "draft",
+        "order_index": 0,
+        "preferences": {}
+      }
+    ]
+  },
+  "story_executions": [
+    {
+      "story_id": "34e1127d-a057-48bf-af81-b74d56f1ffdc",
+      "title": "Placeholder Story",
+      "description": "This is a placeholder story. Edit it to define your requirements.",
+      "objective": "Placeholder Story",
+      "execution_id": "405d6491-7d9d-4bb2-8f18-b4852dd61dde",
+      "attempt_number": 1,
+      "status": "done",
+      "agent_id": "shadow-engineer-1",
+      "agent_name": "shadow-engineer-1",
+      "branch": "story/34e1127d-a057-48bf-af81-b74d56f1ffdc-0ea19e17",
+      "commit_sha": null,
+      "pr_number": 10,
+      "pr_url": "https://github.com/sidthekid134/clemo-lab/pull/10",
+      "started_at": "2025-12-19T21:30:08.815748",
+      "ended_at": "2025-12-19T21:30:15.931322",
+      "duration_seconds": 7.115574,
+      "messages_count": null,
+      "files_modified": null,
+      "lines_added": null,
+      "lines_removed": null,
+      "error_message": null
+    }
+  ],
+  "created_at": "2025-12-19T21:30:08.296628",
+  "updated_at": "2025-12-19T21:30:18.894548"
+}
