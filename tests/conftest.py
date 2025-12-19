@@ -6,7 +6,7 @@ from sqlmodel.pool import StaticPool
 
 from app.main import app
 from app.database.database import get_session
-from app.models.models import Placeholder
+from app.models.models import Placeholder, Story
 
 
 @pytest.fixture(name="client")

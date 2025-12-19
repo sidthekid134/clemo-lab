@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from .config.settings import settings
 from .database.database import create_db_and_tables
-from .routers import placeholder
+from .routers import placeholder, story
 
 app = FastAPI(
     title=settings.APP_NAME,
@@ -21,6 +21,7 @@ app.add_middleware(
 
 # Include routers
 app.include_router(placeholder.router)
+app.include_router(story.router)
 
 
 @app.on_event("startup")
