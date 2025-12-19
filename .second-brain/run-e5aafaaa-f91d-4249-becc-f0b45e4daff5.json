@@ -1,0 +1,110 @@
+{
+  "run_id": "b0dd0f04-59b4-4045-bdae-59f1e24a2a41",
+  "project_id": "cda17d0b-999b-4482-a16d-3f69002ddbbd",
+  "run_mode": "merge",
+  "run_number": 3,
+  "status": "done",
+  "started_at": "2025-12-19T21:56:59.179440",
+  "ended_at": "2025-12-19T22:02:13.353432",
+  "duration_seconds": 314.173992,
+  "coordinator_branch": null,
+  "intent_branch": "intent/placeholder-intent-b0dd0f04",
+  "pr_number": 14,
+  "pr_url": "https://github.com/sidthekid134/clemo-lab/pull/14",
+  "total_stories": 2,
+  "completed_stories": 2,
+  "failed_stories": 0,
+  "snapshot": {
+    "id": "e5aafaaa-f91d-4249-becc-f0b45e4daff5",
+    "name": "Placeholder Intent",
+    "description": "This is a placeholder intent. Edit it to describe what you want to build.",
+    "dependencies": [],
+    "stories": [
+      {
+        "id": "34e1127d-a057-48bf-af81-b74d56f1ffdc",
+        "title": "Placeholder Story",
+        "description": "This is a placeholder story. Edit it to define your requirements.a",
+        "objective": "Placeholder Story",
+        "acceptance_criteria": [],
+        "implementation_notes": [],
+        "dependencies": [],
+        "workstream_id": "default",
+        "complexity_score": 1,
+        "estimated_tokens": 0,
+        "status": "draft",
+        "order_index": 0,
+        "preferences": {}
+      },
+      {
+        "id": "483ee60e-decc-472b-b2af-ddbbc61e3269",
+        "title": null,
+        "description": null,
+        "objective": "New story",
+        "acceptance_criteria": [],
+        "implementation_notes": [],
+        "dependencies": [
+          {
+            "type": "story",
+            "id": "34e1127d-a057-48bf-af81-b74d56f1ffdc"
+          }
+        ],
+        "workstream_id": "default",
+        "complexity_score": 0,
+        "estimated_tokens": 5000,
+        "status": "draft",
+        "order_index": 1,
+        "preferences": {}
+      }
+    ]
+  },
+  "story_executions": [
+    {
+      "story_id": "34e1127d-a057-48bf-af81-b74d56f1ffdc",
+      "title": "Placeholder Story",
+      "description": "This is a placeholder story. Edit it to define your requirements.a",
+      "objective": "Placeholder Story",
+      "execution_id": "7913792a-f683-4c02-a3f8-a9d7db0f56f3",
+      "attempt_number": 1,
+      "status": "done",
+      "agent_id": "claude-engineer-1",
+      "agent_name": "Full-Stack Development Specialist",
+      "branch": "story/34e1127d-a057-48bf-af81-b74d56f1ffdc-b0dd0f04",
+      "commit_sha": null,
+      "pr_number": 12,
+      "pr_url": "https://github.com/sidthekid134/clemo-lab/pull/12",
+      "started_at": "2025-12-19T21:57:01.958025",
+      "ended_at": "2025-12-19T21:59:14.966492",
+      "duration_seconds": 133.008467,
+      "messages_count": null,
+      "files_modified": 1,
+      "lines_added": 0,
+      "lines_removed": 0,
+      "error_message": null
+    },
+    {
+      "story_id": "483ee60e-decc-472b-b2af-ddbbc61e3269",
+      "title": null,
+      "description": null,
+      "objective": "New story",
+      "execution_id": "8a0ebe60-60c5-4f33-8945-baa7a9e68b46",
+      "attempt_number": 1,
+      "status": "done",
+      "agent_id": "claude-engineer-1",
+      "agent_name": "Full-Stack Development Specialist",
+      "branch": "story/483ee60e-decc-472b-b2af-ddbbc61e3269-b0dd0f04",
+      "commit_sha": null,
+      "pr_number": 13,
+      "pr_url": "https://github.com/sidthekid134/clemo-lab/pull/13",
+      "started_at": "2025-12-19T21:59:16.496451",
+      "ended_at": "2025-12-19T22:02:10.616053",
+      "duration_seconds": 174.119602,
+      "messages_count": null,
+      "files_modified": 3,
+      "lines_added": 0,
+      "lines_removed": 0,
+      "error_message": null
+    }
+  ],
+  "created_at": "2025-12-19T21:56:59.168761",
+  "updated_at": "2025-12-19T22:02:13.353628"
+}
